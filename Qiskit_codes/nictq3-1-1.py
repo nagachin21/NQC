@@ -3,7 +3,7 @@
 
 #必要なパッケージのインポート
 import numpy as np
-from qiskit import ClassicalRegister, QuantumRegister,QuantumCircuit,execute,Aer
+from qiskit import ClassicalRegister, QuantumRegister, QuantumCircuit, execute, Aer
 from qiskit.tools.visualization import circuit_drawer,plot_histogram
 
 #回路サイズの指定
