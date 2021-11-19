@@ -58,6 +58,7 @@ print("Total count [y3,y2,y1,y0,x3,x2,x1,x0]:",counts)
 
 #10進変換追記部分
 scounts = sorted(counts.items(), key=lambda x:x[0][4:8]) #xbitsの順にソート
+#print(scounts)
 for i in scounts:
 	k=i[0]
 	v=i[1]
